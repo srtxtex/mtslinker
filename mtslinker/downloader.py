@@ -13,8 +13,8 @@ def construct_json_data_url(event_session_id: str, recording_id: str) -> str:
         raise ValueError('Missing webinar event session ID.')
     
     if not recording_id:
-        return f'https://my.mts-link.ru/api/eventsessions/{event_session_id}/record?withoutCuts=false'
-    return f'https://my.mts-link.ru/api/event-sessions/{event_session_id}/record-files/{recording_id}/flow?withoutCuts=false'
+        return f'https://hse.mts-link.ru/api/eventsessions/{event_session_id}/record?withoutCuts=false'
+    return f'https://hse.mts-link.ru/api/event-sessions/{event_session_id}/record-files/{recording_id}/flow?withoutCuts=false'
 
 
 def fetch_json_data(url: str, session_id: Union[str, None]) -> Union[Dict, None]:
