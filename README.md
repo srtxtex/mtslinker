@@ -4,12 +4,12 @@
 ## Установка
 ### poetry:
 ```bash
-poetry add git+https://github.com/KARENKING112/mtslinker.git
+poetry add git+https://github.com/srtxtex/mtslinker.git
 ```
 
 ### pip:
 ```bash
-pip install git+https://github.com/KARENKING112/mtslinker.git
+pip install git+https://github.com/srtxtex/mtslinker.git
 ```
 
 ## Использование
